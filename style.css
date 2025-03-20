@@ -1,0 +1,372 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    /* border: 2px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .left{
+    width: 30%;
+    height: inherit;
+    /* border: 2px dotted purple; */
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.header .center{
+    width: 30%;
+    height: inherit;
+    /* border: 2px dotted red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.header .center a{
+    color: black;
+    text-decoration: none;
+
+}
+.header .right{
+    width: 30%;
+    height: inherit;
+    /* border: 2px dotted rgb(255, 0, 200);  */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 30px;
+} 
+
+
+.header .right button{
+    width:  40%;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+}
+
+.navbar{
+    width: 100%;
+    height: 300px;
+    /* border: 2px solid red; */
+}
+.navbar .div1{
+    width: 100%;
+    height: inherit;    
+    text-align: center;
+}
+.navbar .div1 .subnav{
+    font-family: "Inter Tight",sans-serif;
+    font-size: xx-large;
+}
+
+.section{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arctial{
+    width: 100%;
+    height: 70px;
+    /* border: 2px solid; */
+    text-align: center;
+    margin-top: 50px;
+}
+.arctial .div{
+    font-size: x-large;
+}
+
+.main{
+    margin-top: 35px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid; */
+}
+
+.main .left{
+    cursor: pointer;
+    width: 30%;
+    height: 350px;
+    text-align: center;
+}
+.main .left img{
+    width: 100%;
+    height: 350px;
+}
+.main .left:hover{
+    border: 3px yellow;
+}
+.main .center{
+    cursor: pointer;
+    width: 30%;
+    height: 350px;
+    text-align: center;
+}
+.main .center:hover{
+    border: 3px yellow;
+}
+.main .center img{
+    width: 100%;
+    height: 350px;
+}
+.main .right{
+    cursor: pointer;
+    width: 30%;
+    height: 350px;
+    text-align: center;
+}   
+.main .right img{
+    width: 100%;
+    height: 350px;
+}
+.main .right:hover{
+    border: 3px yellow;
+}
+.nav2{
+    margin-top: 70px;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+}
+.nav2 .div{
+    font-size: larger;
+}
+.section2{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid; */
+}
+.section2 .row{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.row .g1{
+    width: 48%;
+    height: auto;
+    /* border: 1px solid red; */
+}
+.g1 .gtop{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gtop h1{
+    font-size: 25px;
+}
+.g1 .gbottom{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.gbottom .b1{
+    width: 95%;
+    height: 15px;
+    background-color: #FDF567;
+    border-top-left-radius:20px ;
+    border-end-start-radius:20px ;
+}
+.gbottom .b2{
+    width: 5%;
+    height: 15px;
+    background-color: #FEFCD1;
+    border-top-right-radius:20px ;
+    border-end-end-radius:20px ;
+}
+.main2{
+    width: 99%;
+    height: 450px;
+    margin-top: 30px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    background: #FDF567;
+    margin-left: 10px;
+}
+.main2 .upper{
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid; */
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main2 .middel{
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+.main2 .middel .div1{
+    width: 33%;
+    height: auto;
+    /* display: inline; */
+    text-align: center;
+}
+.main2 .middel .div2{
+    /* display: inline; */
+    width: 33%;
+    height: auto;
+    text-align: center;
+}.main2 .middel .div3{
+    /* display: inline; */
+    width: 33%;
+    height: auto;
+    text-align: center;
+}
+.main2 .middel .div4{
+    /* display: inline; */
+    width: 33%;
+    height: auto;
+    text-align: center;
+}
+.main2 .lower{
+    width: 100%;
+    height: 250px;
+    display: flex; 
+}
+.main2 .lower .div1{
+    width: 33%;
+    height: auto;
+    /* display: inline; */
+    text-align: center;
+}
+.main2 .lower .div2{
+    width: 33%;
+    height: auto;
+    /* display: inline; */
+    text-align: center;
+}.main2 .lower .div3{
+    width: 33%;
+    height: auto;
+    /* display: inline; */
+    text-align: center;
+}.main2 .lower .div4{
+    width: 33%;
+    height: auto;
+    /* display: inline; */
+    text-align: center;
+}
+
+.navbar3{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.arctial3{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.arctial3 .div1{
+    width: 25%;
+    height: inherit;
+}
+.section3{
+    margin-top: 35px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid; */
+}
+
+.section3 .left{
+    cursor: pointer;
+    width: 30%;
+    height: 350px;
+    text-align: center;
+}
+.section3 .left img{
+    width: 100%;
+    height: 350px;
+}
+.section3 .left:hover{
+    border: 3px yellow;
+}
+.section3 .center{
+    cursor: pointer;
+    width: 30%;
+    height: 350px;
+    text-align: center;
+}
+.section3 .center:hover{
+    border: 3px yellow;
+}
+.section3 .center img{
+    width: 100%;
+    height: 350px;
+}
+.section3 .right{
+    cursor: pointer;
+    width: 30%;
+    height: 350px;
+    text-align: center;
+}   
+.section3 .right img{
+    width: 100%;
+    height: 350px;
+}
+.section3 .right:hover{
+    border: 3px yellow;
+}
+
+
+
+
+
+@media (min-width:0px) and (max-width:400px) {
+    .header .center{
+        display: none;
+    }
+    .header .right{
+        display: none;
+    }
+     .main .left{
+        width: 100%;
+    }
+    .main .center{
+        width: 100%;
+    }
+    .main .right{
+        width: 100%;
+    }
+  
+}
+@media (min-width:400px) and (max-width:768px) {
+    .header .center{
+        display: none;
+    }
+     .main .left{
+        width: 50%;
+    }
+    .main .center{
+        width: 50%;
+    }
+    .main .right{
+        width: 90%;
+    }
+   .main  .right img{
+        width: 50%;
+    }
+  
+}
