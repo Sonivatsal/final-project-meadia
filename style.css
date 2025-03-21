@@ -45,6 +45,7 @@
 
 
 .header .right button{
+    cursor: pointer;
     width:  40%;
     height: 40px;
     border-radius: 30px;
@@ -279,55 +280,120 @@
     width: 25%;
     height: inherit;
 }
+
 .section3{
-    margin-top: 35px;
+    margin-top: 50px;
     width: 100%;
-    height: auto;
+    height: 250px;
     display: flex;
-    flex-wrap: wrap;
+    text-align: center;
+}
+.section3 .upper{
+    width: 25%;
+    height: inherit;
+    /* border: 1px solid; */
+}
+.section3 .upper img{
+    width: 90%;
+    height: 290px;
+}
+.section4{
+    margin-top: 140px;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    text-align: center;
+}
+.section4 .upper{
+    width: 25%;
+    height: inherit;
+    /* border: 1px solid; */
+}
+.section4 .upper img{
+    width: 90%;
+    height: 290px;
+}
+.section5{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    text-align: center;
+    margin-top: 130px;
+}
+.section5 .upper{
+    width: 25%;
+    height: inherit;
+    /* border: 1px solid; */
+}
+.section5 .upper img{
+    width: 90%;
+    height: 290px;
+}
+.section6{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    text-align: center;
+    margin-top: 130px;
+}
+.section6 .upper{
+    width: 25%;
+    height: inherit;
+    /* border: 1px solid; */
+}
+.section6 .upper img{
+    width: 90%;
+    height: 290px;
+}
+
+.navbar9{
+    margin-top: 30px;
+    margin-top: 100px;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+    background-color: #FDF567;
+}
+.navbar9 .div1{
+    width: 33;
+    height: inherit;
+    display: flex;
     align-items: center;
     justify-content: center;
     /* border: 2px solid; */
 }
-
-.section3 .left{
+.navbar9 .div2{
+    
+    width: 33%;
+    height: inherit;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid; */
+}
+.navbar9 .div3{
+    width: 33%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+    justify-content: end;
+    /* border: 2px solid; */
+}
+.navbar9 .div3 button{
+    width: 40%;
+    height: 50px;
+    background: #000;
+    border: none;
     cursor: pointer;
-    width: 30%;
-    height: 350px;
+    color: white;
+    border-radius: 20px;
+}
+.footer{
     text-align: center;
-}
-.section3 .left img{
-    width: 100%;
-    height: 350px;
-}
-.section3 .left:hover{
-    border: 3px yellow;
-}
-.section3 .center{
-    cursor: pointer;
-    width: 30%;
-    height: 350px;
-    text-align: center;
-}
-.section3 .center:hover{
-    border: 3px yellow;
-}
-.section3 .center img{
-    width: 100%;
-    height: 350px;
-}
-.section3 .right{
-    cursor: pointer;
-    width: 30%;
-    height: 350px;
-    text-align: center;
-}   
-.section3 .right img{
-    width: 100%;
-    height: 350px;
-}
-.section3 .right:hover{
-    border: 3px yellow;
 }
 
 
@@ -350,6 +416,21 @@
     .main .right{
         width: 100%;
     }
+    .section3{
+        width: 50%;
+    }
+    .section4{
+        width: 50%;
+    }
+    .section5{
+        width: 50%;
+    }
+    .section6{
+        width: 50%;
+    }
+  
+  
+  
   
 }
 @media (min-width:400px) and (max-width:768px) {
@@ -368,5 +449,20 @@
    .main  .right img{
         width: 50%;
     }
+    .section3{
+        width: 100%;
+    }
+    .section4{
+        width: 100%;
+    }
+    .section5{
+        width: 100%;
+    }
+    .section6{
+        width: 100%;
+    }
+  
+  
+  
   
 }
